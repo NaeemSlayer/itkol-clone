@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.navbar {
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+}
+
+#get-free-quote {
+    margin-left: 400px;
+}
+
+/* css for hero section */
+.hero-section {
+  background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+  height: 80vh;
+}
+
+.hero-text h1 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.btn-hero {
+  font-family: "Mulish", sans-serif;
+  background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
+  color: #fff !important;
+}
+
+/* css for  service section*/
+.service-section {
+  padding-top: 120px;
+}
+
+.card-img img {
+  width: 50px;
+  height: 60px;
+}
+
+.card:hover {
+  background-color: #ff4495;
+  color: #fff;
+}
+
+/* service section css */
+.service-section-title p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ff4495;
+  font-weight: 600;
+  margin-bottom: 19px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.service-section-title h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #232f55;
+  font-size: 46px;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+
+/* about section css */
+.about-section {
+  padding: 120px 0px 0px 100px !important;
+  margin-bottom: 100px;
+}
+.about-caption h2 {
+  color: #232f55;
+}
+
+.offers-cap h4 a {
+  color: #232f55;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* css industries */
+.industries-section {
+  background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+  padding: 130px 0px 0px 92px !important;
+  height: 90vh;
+}
+
+.custom-card {
+  width: 16rem !important;
+  height: 12rem !important;
+  line-height: 1.6px !important;
+}
+
+.industry-section-footer p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Mulish", sans-serif;
+}
+.industry-section-footer a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Mulish", sans-serif;
+}
+
+.partner-section {
+  padding: 120px 0px;
+}
+
+.partner-section-tittle {
+  margin-bottom: 55px;
+}
+
+.partner-section-tittle h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #232f55;
+  font-size: 46px;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+
+.partner-section-tittle p {
+  font-family: "Mulish", sans-serif;
+  color: #232f55;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.partner-section-tittle a {
+  border: 1px solid #ff4495;
+  color: #ff4495;
+  text-decoration: none;
+  padding: 13px 34px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 25px;
+}
+
+.single-counter h1 {
+  color: #132e43;
+  font-size: 64px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1;
+  margin-bottom: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.counter-text p {
+  color: #132e43;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* stuff css */
+.stuff-section {
+  padding-bottom: 100px;
+}
+
+.stuff-section h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #232f55;
+  font-size: 46px;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+
+#stuff-card-title {
+  color: #232f55;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-top: 30px;
+  display: block;
+}
+
+/* css for video section */
+.video-section {
+  position: relative;
+}
+
+.video-section .masthead {
+  background-size: cover;
+  min-height: 80vh;
+  position: relative;
+}
+
+.video-section .color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 9, 94, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.video-section .color-overlay h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.video-section .white-btn {
+    background: #fff;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FF4495;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border: none;
+}
+.video-section .white-btn:hover {
+    background: #00095e;
+    color: #fff;
+}
+
+.video-section .color-overlay i {
+  color: #fff;
+  background-color: #FF6162;
+  border-radius: 50%;
+  font-size: 80px;
+  padding: 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .video-section .masthead {
+      min-height: 50vh;
+    }
+    .video-section .color-overlay h2 {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+  }
+  
+
+  /* css for footer */
+  .footer {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+    color: #232F55;;
+  }
+
+  #f-s-1 small a{
+    color: #232F55;
+  }
+  
+  .footer h5 {
+    font-weight: bold;
+    padding: 1rem 0rem;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: #232F55;
+    text-decoration: none;
+  }
+  
+  .footer .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer .social-icons li a {
+    font-size: 2rem;
+    color: #FF4495;
+  }
+  
+  .footer .copyright {
+    text-align: center;
+
+  }
